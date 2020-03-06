@@ -35,11 +35,13 @@
 # soma = num1+num2
 # print(str(soma))
 
-texto = 'AAAAAAAAAAAAAAAAAAAA\
-        sssssssssssssssssssssss\
-        sssssssssssssssssssss'
+# texto = 'AAAAAAAAAAAAAAAAAAAA\
+#         sssssssssssssssssssssss\
+#         sssssssssssssssssssss'
 
-print(texto.upper())
-print(texto.lower())
-print(texto.capitalize())
-print(texto.split(' '))
+# print(texto.upper())
+# print(texto.lower())
+# print(texto.capitalize())
+# print(texto.split(' '))
+# print(texto.replace('s','0'))
+
