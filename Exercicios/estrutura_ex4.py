@@ -9,4 +9,4 @@ if n1 > n2:
 elif n2 > n1:
     print(f"O {n2} e maior que o {n1}")
 else:
-    print(f"Os numeros sao iguais")
+    print("Os numeros sao iguais")
