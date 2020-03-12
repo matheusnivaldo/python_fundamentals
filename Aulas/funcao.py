@@ -50,12 +50,39 @@
 #     def create_list(): 
 #         new_list = []
 
-carrinho = [{"nome":"Tenis","valor":21.70},              
-            {"nome":"Camiseta","valor":10.33}]  
+# carrinho = [{"nome":"Tenis","valor":21.7
+# 0},              
+#             {"nome":"Camiseta","valor":10.33}]  
             
-black_friday = lambda x: x / 2  
-for c in carrinho:      
-    print ("Nome do produto: ",c["nome"])      
-    print ("Valor original: ",c["valor"])      
-    print ("Valor com desconto: ",black_friday(c["valor"]))      
-    print ("=-=-=-=-=-=-=-=-=-=")
+# black_friday = lambda x: x / 2  
+# for c in carrinho:      
+#     print ("Nome do produto: ",c["nome"])      
+#     print ("Valor original: ",c["valor"])      
+#     print ("Valor com desconto: ",black_friday(c["valor"]))      
+#     print ("=-=-=-=-=-=-=-=-=-=")
+
+personagens = []
+
+def addPersonagens(nomePersonagem):
+    personagens.append(nomePersonagem)
+
+def rmvPersonagem(nomePersonagem):
+    if nomePersonagem in personagens:
+        personagens.remove(nomePersonagem)
+    else:
+        print("Personagem fora da lista")
+            
+
+addPersonagens("Matheus")
+print(personagens)
+addPersonagens("Lucas")
+print(personagens)
+addPersonagens("Marcos")
+print(personagens)
+rmvPersonagem("Caio")
+print(personagens)
+rmvPersonagem("Marcos")
+print(personagens)
+rmvPersonagem("Lucas")
+print(personagens)
+                
