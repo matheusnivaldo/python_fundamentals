@@ -1,0 +1,15 @@
+UPDATE scripts SET nome='update.py' WHERE id=1;
+
+DELETE FROM scripts WHERE id = 1;
+
+TRUNCATE scripts;
+
+SELECT * FROM scripts WHERE nome LIKE '%.py%' ORDER BY id DESC;
+
+SELECT * FROM scripts WHERE nome LIKE '%.py';
+
+BEGIN; -> AREA DE TRANSFERENCIA
+ROLLBACK -> VOLTAR
+COMMIT -> CONFIRMAR ALTERACAO
+
+

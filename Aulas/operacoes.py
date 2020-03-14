@@ -68,4 +68,4 @@ var = datetime.datetime(2020, 1, 9)
 var_fmt = var.strftime('%d/%m/%Y')
 
 
-print(var_fmt)
+print(var_fmt)  
